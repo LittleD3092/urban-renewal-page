@@ -1,5 +1,6 @@
 ---
 # 必填
+layout: page
 title: 「範例」○○街區都市更新案 公告說明會
 notice_date: 2025-10-10
 
