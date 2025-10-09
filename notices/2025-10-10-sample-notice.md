@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: notice
 title: 「範例」○○街區都市更新案 公告說明會
 notice_date: 2025-10-10
 permalink: /notices/2025-10-10-sample-notice/
