@@ -10,7 +10,7 @@ permalink: /notices/
 
 {% assign items = site.notices | sort: 'notice_date' | reverse %}
 {% for n in items %}
-- **{{ n.notice_date | date: "%Y-%m-%d" }}** — [{{ n.title }}]({{ n.url }})
+- **{{ n.notice_date | date: "%Y-%m-%d" }}** — [{{ n.title }}]({{ n.url | relative_url }})
 {%- if n.area %}（{{ n.area }}）{% endif -%}
 {%- if n.status %} · {{ n.status }}{% endif -%}
 {% endfor %}
