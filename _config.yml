@@ -1,31 +1,23 @@
 title: "都市更新公告專區"
 url: "https://littled3092.github.io"
-baseurl: "/fictional-engine"
-theme: minima
+baseurl: "/fictional-engine"   # ← 你的專案資料夾
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+theme: minima
 
 collections:
   notices:
-    output: true # 讓每筆公告各有一個頁面
+    output: true
     permalink: /notices/:name/
 
-
-# 預設：notices 的版型與日期格式
 defaults:
   - scope: { path: "", type: notices }
     values:
-      layout: notice
+      layout: page      # ← 先用內建 page，最穩
       lang: zh-TW
 
-
-# 導覽列將顯示的頁面
 header_pages:
   - notices.md
   - about.md
-
 
 minima:
   skin: auto
