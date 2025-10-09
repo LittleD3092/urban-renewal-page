@@ -4,16 +4,16 @@ baseurl: "/fictional-engine"   # ← 你的專案資料夾
 
 theme: minima
 
-collections:
-  notices:
-    output: true
-    permalink: /notices/:path/
+# collections:
+#   notices:
+#     output: true
+#     permalink: /notices/:path/
 
-defaults:
-  - scope: { path: "", type: notices }
-    values:
-      layout: page      # ← 先用內建 page，最穩
-      lang: zh-TW
+# defaults:
+#   - scope: { path: "", type: notices }
+#     values:
+#       layout: page
+#       lang: zh-TW
 
 header_pages:
   - notices.md
