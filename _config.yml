@@ -1,38 +1,33 @@
 title: "都市更新公告專區"
 description: "單純展示與存檔：公告、時程、地點、檔案下載。"
-url: "https://littled3092.github.io" # 或專案 Pages URL
-
-
-# 直接用 GitHub 內建的 minima 主題
-# 無需 Gemfile，Pages 會自動建置
+url: "https://littled3092.github.io"
 theme: minima
+
 plugins:
-- jekyll-feed
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
 
-
-# 自訂集合：公告
 collections:
-notices:
-output: true # 讓每筆公告各有一個頁面
-permalink: /notices/:name/
+  notices:
+    output: true # 讓每筆公告各有一個頁面
+    permalink: /notices/:name/
 
 
 # 預設：notices 的版型與日期格式
 defaults:
-- scope: { path: "", type: notices }
-values:
-layout: notice
-lang: zh-TW
+  - scope: { path: "", type: notices }
+    values:
+      layout: notice
+      lang: zh-TW
 
 
 # 導覽列將顯示的頁面
 header_pages:
-- notices.md
-- about.md
+  - notices.md
+  - about.md
 
 
 minima:
-skin: auto
-social_links:
-- { platform: github, user_url: "https://github.com/LittleD3092" }
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/LittleD3092" }
