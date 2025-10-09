@@ -7,7 +7,7 @@ theme: minima
 collections:
   notices:
     output: true
-    permalink: /notices/:name/
+    permalink: /notices/:path/
 
 defaults:
   - scope: { path: "", type: notices }

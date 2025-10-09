@@ -2,6 +2,7 @@
 layout: page
 title: 「範例」○○街區都市更新案 公告說明會
 notice_date: 2025-10-10
+permalink: /notices/2025-10-10-sample-notice/
 case_id: 114-UR-0001
 area: 新竹市 東區
 address: 光復路二段 300 巷一帶
